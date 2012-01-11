@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" 
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/textDetail"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_weight="0.10"
+        android:text="TextView" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="goAds" >
+    </ImageButton>
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show the place on map" 
+        android:gravity="center"/>
+
+</LinearLayout>

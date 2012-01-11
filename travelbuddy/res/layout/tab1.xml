@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/titletextweather"
+        android:text="Weather"
+        android:textColor="@color/ourblue"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:background="@color/grey"/>
+        
+      
+
+    <Gallery
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/examplegallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="5dip"
+        android:spacing="-20dip"
+        android:background="@color/grey" />
+    
+    
+    <TextView android:id="@+id/titletextweather"
+        android:text="Latest News"
+        android:textColor="@color/ourblue"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:background="@color/grey"/>
+
+   <ListView
+        android:id="@+id/NewsList"
+        android:layout_width="fill_parent"
+	    android:layout_height="200dip"
+	    android:background="@color/grey"
+	    android:padding="10dip"
+	    android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="5dip" />
+        
+      
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cmu.travelbuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".TravelBuddyActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HelloTabWidget"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".GalleryExample"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".archiveActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".subscriptionActivity"
+                  android:label="@string/app_name">
+        </activity>    
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.SplashActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.TravelBuddy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FriendsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Places"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.ShowMap" >
+        </activity>
+        <activity
+            android:label="@string/app_name2"
+            android:name="edu.com.travelbuddy.citygrid.MainActivity"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:label="List"
+            android:name="edu.com.travelbuddy.citygrid.List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="Details"
+            android:name="edu.com.travelbuddy.citygrid.Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="Parameters"
+            android:name="edu.com.travelbuddy.citygrid.Parameters"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <uses-library
+        android:name="com.facebook.android"
+        android:required="true" />
+
+</manifest>

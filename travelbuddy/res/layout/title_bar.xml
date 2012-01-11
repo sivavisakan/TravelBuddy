@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="500dip"
+    android:layout_height="35dip"
+    
+    android:background="@color/black" >
+
+    
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel"
+        android:textStyle="italic"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        />
+    
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buddy"
+        android:textStyle="italic"
+        android:gravity="center_vertical"
+        android:textColor="@color/ourblue"
+        />
+ 
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/travel"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:id="@+id/wrapLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip" >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/maintext1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Going"
+            android:textColor="@color/ourblue"
+            android:textSize="30dip" />
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/maintext2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Somewhere?"
+            android:textColor="@color/white"
+            android:textSize="30dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+             />
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go" >
+        </Button>
+    </LinearLayout>
+       
+
+    <LinearLayout 
+        android:id="@+id/LinearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        >
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/maintext3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|bottom"
+            android:text="Staying "
+            android:textColor="@color/ourblue"
+            android:textSize="30dip" />
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/maintext4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|bottom"
+            android:text="Around?"
+            android:textColor="@color/white"
+            android:textSize="30dip" />
+        
+    </LinearLayout>
+    
+    </LinearLayout>    
+
+</LinearLayout>

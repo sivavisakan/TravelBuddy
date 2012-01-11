@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cmu.travelbuddy"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.CustomAdapterList" >
+              </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".TravelBuddyActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".GoingSomewhereActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".StayingAroundActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.citygrid.WhatToDoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.Social"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.unitconversion.UnitConversion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.weather.WeatherDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".UnitConverter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".WeatherAndNews"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".archiveActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name=".subscriptionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.expense.ExpenseActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.expense.ExpenseOverview"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.expense.ManageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.expense.ExpenseList"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.image.ClickPicture"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.alerts.CalendarEventsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.citygrid.Detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.SplashActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.FriendsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.Places"
+            android:screenOrientation="portrait" />
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.ShowMap"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.TravelBuddy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:name=".FriendsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.Places"
+            android:screenOrientation="portrait" />
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.ShowMap"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.news.ReadRssFeed"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="@string/app_name2"
+            android:name="edu.com.travelbuddy.citygrid.WhatToDoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="@string/app_name2"
+            android:name="edu.com.travelbuddy.citygrid.WhatToDoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="@string/app_name2"
+            android:name="edu.cmu.travelbuddy.citygrid.PlaceList"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="@string/app_name2"
+            android:name="edu.cmu.travelbuddy.citygrid.OfferDetail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="List"
+            android:name="edu.cmu.travelbuddy.citygrid.List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="Details"
+            android:name="edu.cmu.travelbuddy.citygrid.Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="Parameters"
+            android:name=".citygrid.Parameters"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-library
+        android:name="com.facebook.android"
+        android:required="true" />
+
+</manifest>

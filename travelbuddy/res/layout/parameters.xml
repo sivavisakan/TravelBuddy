@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:id="@+id/enterZipCode" android:layout_height="wrap_content" android:text="@string/enterZipCode"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/zipCode" android:layout_height="wrap_content" android:inputType="number" android:text="@string/defaultZipCode">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/enterWhat" android:id="@+id/enterWhat"></TextView>
+    <EditText android:layout_height="wrap_content" android:inputType="text" android:layout_width="match_parent" android:text="@string/defaultWhat" android:id="@+id/what"></EditText>
+    <Button android:layout_width="match_parent" android:id="@+id/goButton" android:layout_height="wrap_content" android:text="@string/goButton" android:onClick="goSearch"></Button>
+    <ToggleButton android:gravity="center" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:text="ToggleButton" android:textOn="Sorted by Date" android:textOff="Not sorted by date" android:id="@+id/sortButton" android:visibility="invisible" android:clickable="false"></ToggleButton>    
+</LinearLayout>

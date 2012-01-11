@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cmu.travelbuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-sdk android:minSdkVersion="8"/>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+<<<<<<< HEAD
+        
+=======
+           <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.expense.ExpenseOverview" >
+        </activity>
+        <activity
+            android:name="edu.cmu.travelbuddy.expense.ExpenseActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+>>>>>>> 5f61463eb1f96ff9ff2d5eccae2701edb32c144c
+        <activity
+            android:label="@string/app_name"
+            android:name=".TravelBuddyActivity" >
+        </activity>
+        <activity android:name=".GoingSomewhereActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".StayingAroundActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="edu.cmu.travelbuddy.citygrid.WhatToDoActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="edu.cmu.travelbuddy.citygrid.PlaceList"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="edu.cmu.travelbuddy.unitconversion.UnitConversion"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="edu.cmu.travelbuddy.weather.WeatherDetailActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".UnitConverter"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".WeatherAndNews"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".archiveActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".subscriptionActivity"
+                  android:label="@string/app_name">
+        </activity> 
+        <activity android:name="edu.cmu.travelbuddy.expense.ExpenseActivity"
+                  android:label="@string/app_name">
+        </activity> 
+        <activity android:name="edu.cmu.travelbuddy.expense.ManageActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name="edu.cmu.travelbuddy.expense.ExpenseList"
+                  android:label="@string/app_name">
+        </activity>   
+        <activity android:name="edu.cmu.travelbuddy.image.ClickPicture"
+                  android:label="@string/app_name">
+        </activity>  
+        <activity android:name="edu.cmu.travelbuddy.alerts.CalendarEventsActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.SplashActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.FriendsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.Places"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.ShowMap" >
+        </activity>
+            
+        <activity
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.TravelBuddy"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.FriendsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.cmu.travelbuddy.facebook.Places"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.facebook.ShowMap" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name="edu.cmu.travelbuddy.news.ReadRssFeed" >
+        </activity>
+        <activity
+            android:label="@string/app_name2"
+            android:name="edu.com.travelbuddy.citygrid.WhatToDoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="List"
+            android:name="edu.com.travelbuddy.citygrid.List"
+            android:screenOrientation="portrait" >
+        </activity>
+       <activity
+            android:label="Details"
+            android:name="edu.com.travelbuddy.citygrid.Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="Parameters"
+            android:name=".citygrid.Parameters"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5f61463eb1f96ff9ff2d5eccae2701edb32c144c
+    <uses-library
+        android:name="com.facebook.android"
+        android:required="true" />
+
+</manifest>
